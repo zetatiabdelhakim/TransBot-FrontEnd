@@ -1,0 +1,16 @@
+header {
+  height: 62px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+header img.logo {
+  height: 32px;
+  width: 200px;
+}
+header img.oncf {
+  height: 40px;
+  width: 77px;
+}

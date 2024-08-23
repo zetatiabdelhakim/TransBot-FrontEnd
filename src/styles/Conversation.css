@@ -1,0 +1,74 @@
+div.conversation {
+    position: absolute;
+    top: calc(62px + 48px);
+    width: 99%;
+    height: calc(100% - 62px - 36px - 93px);
+    overflow: auto;
+  }
+  div.conversation p.salam {
+    font-size: 62px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin-left: 10%;
+    background: linear-gradient(90deg, #688ae9, #c66d7b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 0;
+  }
+  div.conversation p.q {
+      margin-top: 0;
+    font-size: 47px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin-left: 10%;
+    color: #cac4d0;
+  }
+  div.conversation .buttons{
+      display: flex;
+      width: 80%;
+      margin-left: 10%;
+      justify-content: center;
+      align-items: center;
+      margin-top: 100px;
+      gap: 5%;
+  }
+  div.conversation .buttons button{
+      background-color: #ECE6F0;
+      height: 49px;
+      flex-shrink: 0;
+      width: 439px;
+      border: none;
+      border-radius: 100px;
+      font-size: 20px;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  div.conversation .buttons button:hover{
+      scale: 0.95;
+  }
+  div.prompt {
+    position: absolute;
+    width: 99%;
+    bottom: 0;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div.prompt input {
+    width: 80%;
+    height: 39px;
+    background-color: #ece6f0;
+    border: none;
+    border-radius: 100px;
+    padding-left: 30px;
+  }
+  div.prompt img {
+    position: relative;
+    left: -40px;
+  }
+  div.prompt img:hover {
+    transform: scale(1.1);
+  }
